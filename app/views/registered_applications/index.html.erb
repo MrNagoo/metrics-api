@@ -1,0 +1,7 @@
+<h1>My Registered applications</h1>
+
+<% @applications.each do |app| %>
+  <p>
+    <%= "#{app.name} | #{app.url}" %>
+  </p>
+<% end %>
